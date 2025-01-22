@@ -112,7 +112,7 @@ function renderTherapist(therapist) {
             </p>
             <p id="accepting-clients">${therapist.acceptingClients}</p>
             <a class="therapist-link" href="/${therapist.firstName}.toLowerCase()}-${therapist.lastName.toLowerCase()}"
-              >Learn more about ${therapist.firstName}}</a
+              >Learn more about ${therapist.firstName}</a
             >
           </div>
 
