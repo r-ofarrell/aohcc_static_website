@@ -164,6 +164,12 @@ footer {
   transition: 300ms ease-in-out;
 }
 
+@media (hover: none) {
+  body {
+    background-attachment: initial;
+  }
+}
+
 @media (max-width: 480px) {
   #container {
     width: auto;
