@@ -111,7 +111,7 @@ function renderTherapist(therapist) {
               Insurance: ${therapist.insurances.join(", ")}
             </p>
             <p id="accepting-clients">${therapist.acceptingClients}</p>
-            <a class="therapist-link" href="${therapist.lastName.toLowerCase()}-${therapist.firstName.toLowerCase()}.html"
+            <a class="therapist-link" href="./${therapist.lastName.toLowerCase()}-${therapist.firstName.toLowerCase()}.html"
               >Learn more about ${therapist.firstName}</a
             >
           </div>
