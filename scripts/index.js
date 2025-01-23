@@ -45,7 +45,7 @@ const therapists = [
     licenseType: "Psychologist",
     bio: "documents/ofarrell_ryan.txt",
     pic: "images/bio_pics/ofarrell_ryan.jpg",
-    acceptingClients: "Waitlist closes",
+    acceptingClients: "Waitlist closed",
     insurances: ["BCBS"],
     populations: ["Adults"],
   },
