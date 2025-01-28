@@ -72,7 +72,7 @@ const therapists = [
   {
     firstName: "Chris",
     lastName: "Wells",
-    licenseType: "LPC-A",
+    licenseType: "LPC",
     bio: "documents/wells_chris.txt",
     pic: "images/bio_pics/wells_chris.jpg",
     acceptingClients: "Accepting new clients",
@@ -111,7 +111,7 @@ function renderTherapist(therapist) {
               Insurance: ${therapist.insurances.join(", ")}
             </p>
             <p id="accepting-clients">${therapist.acceptingClients}</p>
-            <a class="therapist-link" href="./${therapist.lastName.toLowerCase()}-${therapist.firstName.toLowerCase()}.html"
+            <a class="therapist-link" href="./${therapist.lastName.toLowerCase().replace("'", "")}-${therapist.firstName.toLowerCase()}.html"
               >Learn more about ${therapist.firstName}</a
             >
           </div>
