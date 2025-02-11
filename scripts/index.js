@@ -7,7 +7,7 @@ const therapists = [
     pic: "images/bio_pics/atkins_jacquie.jpg",
     acceptingClients: "Waitlist closed",
     insurances: ["Self-pay only"],
-    populations: ["Adults", "Couples"],
+    populations: ["Adults"],
   },
   {
     firstName: "Sarah",
