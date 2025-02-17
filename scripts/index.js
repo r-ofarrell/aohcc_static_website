@@ -7,6 +7,7 @@ const therapists = [
     pic: "images/bio_pics/atkins_jacquie.jpg",
     acceptingClients: "Waitlist closed",
     insurances: ["Self-pay only"],
+    locations: ["Main office", "Telehealth"],
     populations: ["Adults"],
   },
   {
@@ -17,6 +18,7 @@ const therapists = [
     pic: "images/bio_pics/bateman_sarah.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
+    locations: ["Main office", "Telehealth"],
     populations: ["Adults"],
   },
   {
@@ -27,6 +29,7 @@ const therapists = [
     pic: "images/bio_pics/conway_carol.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["BCBS"],
+    locations: ["Telehealth only"],
     populations: ["Adults"],
   },
   {
@@ -37,6 +40,7 @@ const therapists = [
     pic: "images/bio_pics/kidd_valerie.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
+    locations: ["Main office", "Telehealth"],
     populations: ["Children", "Adolescents", "Adults", "Couples"],
   },
   {
@@ -47,6 +51,7 @@ const therapists = [
     pic: "images/bio_pics/ofarrell_ryan.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["BCBS"],
+    locations: ["Main office", "Telehealth"],
     populations: ["Adults"],
   },
   {
@@ -57,6 +62,7 @@ const therapists = [
     pic: "images/bio_pics/reynolds_sydney.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
+    locations: ["Main office", "Telehealth"],
     populations: ["Children", "Adolescents", "Adults"],
   },
   {
@@ -67,6 +73,7 @@ const therapists = [
     pic: "images/bio_pics/root_tavis.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Aetna", "Cigna", "UHC"],
+    locations: ["Telehealth only"],
     populations: ["Adults"],
   },
   {
@@ -77,6 +84,7 @@ const therapists = [
     pic: "images/bio_pics/wells_chris.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
+    locations: ["Main office", "Telehealth"],
     populations: ["Adults", "Couples"],
   },
   {
@@ -87,6 +95,7 @@ const therapists = [
     pic: "images/bio_pics/zagaro_jason.png",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
+    locations: ["Telehealth only"],
     populations: ["Adolescents", "Adults"],
   },
 ];
@@ -106,6 +115,9 @@ function renderTherapist(therapist) {
             </h3>
             <p id="populations">
               Works with: ${therapist.populations.join(", ")}
+            </p>
+            <p id="locations">
+              Locations: ${therapist.locations.join(", ")}
             </p>
             <p id="insurances">
               Insurance: ${therapist.insurances.join(", ")}
