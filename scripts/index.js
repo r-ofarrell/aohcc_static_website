@@ -66,17 +66,6 @@ const therapists = [
     populations: ["Children", "Adolescents", "Adults"],
   },
   {
-    firstName: "Tavis",
-    lastName: "Root",
-    licenseType: "LPC",
-    bio: "documents/root_tavis.txt",
-    pic: "images/bio_pics/root_tavis.jpg",
-    acceptingClients: "Accepting new clients",
-    insurances: ["Aetna", "Cigna", "UHC"],
-    locations: ["Telehealth only"],
-    populations: ["Adults"],
-  },
-  {
     firstName: "Chris",
     lastName: "Wells",
     licenseType: "LPC",
