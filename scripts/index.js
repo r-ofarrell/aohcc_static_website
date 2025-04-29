@@ -22,6 +22,17 @@ const therapists = [
     populations: ["Adults"],
   },
   {
+    firstName: "Rachel",
+    lastName: "Berkowitz Eichhorn",
+    licenseType: "LPC-A",
+    bio: "documents/berkowitz_eichhorn_rachel.txt",
+    pic: "images/bio_pics/berkowitz_eichhorn_rachel.jpg",
+    acceptingClients: "Accepting new clients",
+    insurances: ["Self-pay only"],
+    locations: ["Main office", "Telehealth"],
+    populations: ["Adults, Adolescents"],
+  },
+  {
     firstName: "Carol",
     lastName: "Conway",
     licenseType: "LISW-CP",
@@ -42,6 +53,17 @@ const therapists = [
     insurances: ["Self-pay only"],
     locations: ["Main office", "Telehealth"],
     populations: ["Children", "Adolescents", "Adults", "Couples"],
+  },
+  {
+    firstName: "Lauren",
+    lastName: "Madden",
+    licenseType: "LPC-A",
+    bio: "documents/madden_lauren.txt",
+    pic: "images/bio_pics/madden_lauren.jpeg",
+    acceptingClients: "Accepting new clients",
+    insurances: ["Self-pay only"],
+    locations: ["Main office", "Telehealth"],
+    populations: ["Adults"],
   },
   {
     firstName: "Ryan",
@@ -112,7 +134,7 @@ function renderTherapist(therapist) {
               Insurance: ${therapist.insurances.join(", ")}
             </p>
             <p id="accepting-clients">${therapist.acceptingClients}</p>
-            <a class="therapist-link" href="./${therapist.lastName.toLowerCase().replace("'", "")}-${therapist.firstName.toLowerCase()}.html"
+            <a class="therapist-link" href="./${therapist.lastName.toLowerCase().replace("'", "").replace(" ", "-")}-${therapist.firstName.toLowerCase()}.html"
               >Learn more about ${therapist.firstName}</a
             >
           </div>
