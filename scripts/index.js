@@ -63,7 +63,7 @@ const therapists = [
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
     locations: ["Main office", "Telehealth"],
-    populations: ["Adults"],
+    populations: ["Individuals 16-years-old and older"],
   },
   {
     firstName: "Ryan",
