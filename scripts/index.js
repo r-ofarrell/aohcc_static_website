@@ -77,6 +77,17 @@ const therapists = [
     populations: ["Adults"],
   },
   {
+    firstName: "Carly",
+    lastName: "Polk",
+    licenseType: "LPC",
+    bio: "documents/polk_carly.txt",
+    pic: "images/bio_pics/polk_carly.jpg",
+    acceptingClients: "Accepting new clients",
+    insurances: ["Self-pay only"],
+    locations: ["Main office", "Telehealth"],
+    populations: ["Children", "Adolescents", "Adults"],
+  },
+  {
     firstName: "Sydney",
     lastName: "Reynolds",
     licenseType: "LPC",
