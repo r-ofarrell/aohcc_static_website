@@ -2,31 +2,31 @@
   --outline-color: #f4f3ee;
 }
 
-#insurance {
+#affordability {
   width: 80%;
   margin: 0 auto;
   text-align: initial;
 }
 
-#insurance h1,
-#insurance h2 {
+#affordability h1,
+#affordability h2 {
   text-align: center;
 }
 
-#insurance a {
+#affordability a {
   color: var(--outline-color);
   font-weight: 600;
 }
 
-#insurance a:hover,
-#insurance a:focus {
+#affordability a:hover,
+#affordability a:focus {
   color: #ffccb0;
   text-shadow: 0px 0px 5px #ffccb0;
   transition: 300ms ease-in-out;
 }
 
 @media (max-width: 480px) {
-  #insurance {
+  #affordability {
     width: 90%;
   }
 }
