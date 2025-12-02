@@ -49,7 +49,7 @@ const therapists = [
     licenseType: "LPC-A",
     bio: "documents/kidd_valerie.txt",
     pic: "images/bio_pics/kidd_valerie.jpg",
-    acceptingClients: "Accepting new clients",
+    acceptingClients: "Waitlist closed",
     insurances: ["Self-pay only"],
     locations: ["Main office", "Telehealth"],
     populations: ["Children", "Adolescents", "Adults", "Couples"],
