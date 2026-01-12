@@ -43,17 +43,6 @@ const therapists = [
     locations: ["Telehealth only"],
     populations: ["Adults"],
   },
-  {
-    firstName: "Valerie",
-    lastName: "Kidd",
-    licenseType: "LPC-A",
-    bio: "documents/kidd_valerie.txt",
-    pic: "images/bio_pics/kidd_valerie.jpg",
-    acceptingClients: "Waitlist closed",
-    insurances: ["Self-pay only"],
-    locations: ["Main office", "Telehealth"],
-    populations: ["Children", "Adolescents", "Adults", "Couples"],
-  },
   // {
   //   firstName: "Lauren",
   //   lastName: "Madden",
