@@ -105,7 +105,7 @@ const therapists = [
     bio: "documents/zagaro_jason.txt",
     pic: "images/bio_pics/zagaro_jason.png",
     acceptingClients: "Accepting new clients",
-    insurances: ["Aetna"],
+    insurances: ["Aetna", "Cigna"],
     locations: ["Telehealth only"],
     populations: ["Adolescents", "Adults"],
   },
