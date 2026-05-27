@@ -98,17 +98,17 @@ const therapists = [
     locations: ["Main office", "Telehealth"],
     populations: ["Adults", "Couples"],
   },
-  {
-    firstName: "Jason",
-    lastName: "Zagaro",
-    licenseType: "LPC",
-    bio: "documents/zagaro_jason.txt",
-    pic: "images/bio_pics/zagaro_jason.png",
-    acceptingClients: "Accepting new clients",
-    insurances: ["Aetna", "Cigna"],
-    locations: ["Telehealth only"],
-    populations: ["Adolescents", "Adults"],
-  },
+  // {
+  //   firstName: "Jason",
+  //   lastName: "Zagaro",
+  //   licenseType: "LPC",
+  //   bio: "documents/zagaro_jason.txt",
+  //   pic: "images/bio_pics/zagaro_jason.png",
+  //   acceptingClients: "Accepting new clients",
+  //   insurances: ["Aetna", "Cigna"],
+  //   locations: ["Telehealth only"],
+  //   populations: ["Adolescents", "Adults"],
+  // },
 ];
 
 const therapistSection = document.getElementById("therapists");
