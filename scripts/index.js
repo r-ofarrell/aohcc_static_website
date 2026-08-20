@@ -38,7 +38,7 @@ const therapists = [
     licenseType: "LISW-CP",
     bio: "documents/conway_carol.txt",
     pic: "images/bio_pics/conway_carol.jpg",
-    acceptingClients: "Accepting new clients",
+    acceptingClients: "Waitlist closed",
     insurances: ["BCBS"],
     locations: ["Telehealth only"],
     populations: ["Adults"],
