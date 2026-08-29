@@ -7,7 +7,7 @@ const therapists = [
     pic: "images/bio_pics/atkins_jacquie.jpg",
     acceptingClients: "Waitlist closed",
     insurances: ["Self-pay only"],
-    locations: ["Main office", "Telehealth"],
+    locations: ["West Ashley", "Telehealth"],
     populations: ["Adults"],
   },
   {
@@ -18,7 +18,7 @@ const therapists = [
     pic: "images/bio_pics/bateman_sarah.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
-    locations: ["Main office", "Telehealth"],
+    locations: ["West Ashley", "Telehealth"],
     populations: ["Adults"],
   },
   {
@@ -29,7 +29,7 @@ const therapists = [
     pic: "images/bio_pics/berkowitz_eichhorn_rachel.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
-    locations: ["Main office", "Telehealth"],
+    locations: ["West Ashley", "Telehealth"],
     populations: ["Children, Adolescents", "Adults"],
   },
   {
@@ -51,7 +51,7 @@ const therapists = [
     pic: "images/bio_pics/madden_lauren.jpeg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
-    locations: ["Main office", "Telehealth"],
+    locations: ["West Ashley", "Telehealth"],
     populations: ["Individuals 16-years-old and older"],
   },
   {
@@ -62,7 +62,7 @@ const therapists = [
     pic: "images/bio_pics/ofarrell_ryan.jpg",
     acceptingClients: "Waitlist closed",
     insurances: ["BCBS"],
-    locations: ["Main office", "Telehealth"],
+    locations: ["West Ashley", "Mount Pleasant" "Telehealth"],
     populations: ["Adults"],
   },
   {
@@ -73,7 +73,7 @@ const therapists = [
     pic: "images/bio_pics/polk_carly.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
-    locations: ["Main office", "Telehealth"],
+    locations: ["West Ashley", "Telehealth"],
     populations: ["Children", "Adolescents", "Adults"],
   },
   {
@@ -84,7 +84,7 @@ const therapists = [
     pic: "images/bio_pics/reynolds_sydney.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
-    locations: ["Main office", "Telehealth"],
+    locations: ["West Ashley", "Telehealth"],
     populations: ["Children", "Adolescents", "Adults"],
   },
   {
@@ -95,7 +95,7 @@ const therapists = [
     pic: "images/bio_pics/wells_chris.jpg",
     acceptingClients: "Accepting new clients",
     insurances: ["Self-pay only"],
-    locations: ["Main office", "Telehealth"],
+    locations: ["West Ashley", "Telehealth"],
     populations: ["Adults", "Couples"],
   },
   // {
