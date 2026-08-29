@@ -1,0 +1,26 @@
+{
+  "name": "aohcc_static_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-ofarrell/aohcc_static_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/r-ofarrell/aohcc_static_website/issues"
+  },
+  "homepage": "https://github.com/r-ofarrell/aohcc_static_website#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "js-beautify": "^2.0.3",
+    "nunjucks": "^3.2.4"
+  }
+}
