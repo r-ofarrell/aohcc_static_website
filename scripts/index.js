@@ -62,7 +62,7 @@ const therapists = [
     pic: "images/bio_pics/ofarrell_ryan.jpg",
     acceptingClients: "Waitlist closed",
     insurances: ["BCBS"],
-    locations: ["West Ashley", "Mount Pleasant" "Telehealth"],
+    locations: ["West Ashley", "Mount Pleasant", "Telehealth"],
     populations: ["Adults"],
   },
   {
