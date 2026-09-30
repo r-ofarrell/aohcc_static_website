@@ -38,7 +38,7 @@ const therapists = [
     licenseType: "LPC-A",
     bio: "documents/madden_lauren.txt",
     pic: "images/bio_pics/madden_lauren.jpeg",
-    acceptingClients: "Accepting new clients",
+    acceptingClients: "Waitlist closed",
     insurances: ["Self-pay only"],
     locations: ["West Ashley", "Telehealth"],
     populations: ["Individuals 16-years-old and older"],
@@ -87,17 +87,6 @@ const therapists = [
     locations: ["West Ashley", "Telehealth"],
     populations: ["Adults", "Couples"],
   },
-  // {
-  //   firstName: "Jason",
-  //   lastName: "Zagaro",
-  //   licenseType: "LPC",
-  //   bio: "documents/zagaro_jason.txt",
-  //   pic: "images/bio_pics/zagaro_jason.png",
-  //   acceptingClients: "Accepting new clients",
-  //   insurances: ["Aetna", "Cigna"],
-  //   locations: ["Telehealth only"],
-  //   populations: ["Adolescents", "Adults"],
-  // },
 ];
 
 const therapistSection = document.getElementById("therapists");
