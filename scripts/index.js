@@ -22,17 +22,6 @@ const therapists = [
     populations: ["Adults"],
   },
   {
-    firstName: "Rachel",
-    lastName: "Berkowitz Eichhorn",
-    licenseType: "LPC-A",
-    bio: "documents/berkowitz_eichhorn_rachel.txt",
-    pic: "images/bio_pics/berkowitz_eichhorn_rachel.jpg",
-    acceptingClients: "Accepting new clients",
-    insurances: ["Self-pay only"],
-    locations: ["West Ashley", "Telehealth"],
-    populations: ["Children, Adolescents", "Adults"],
-  },
-  {
     firstName: "Carol",
     lastName: "Conway",
     licenseType: "LISW-CP",
